@@ -1,0 +1,130 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/25.0.2 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="25.0.2">
+  <diagram name="Page-1" id="ZQXwEaMHRnqAIhc7bV9I">
+    <mxGraphModel dx="1154" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JAcyFPl98IP03p76uuvU-1" value="ESP32" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCFF;" vertex="1" parent="1">
+          <mxGeometry x="200" y="280" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JAcyFPl98IP03p76uuvU-2" value="ESP32" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCFF;" vertex="1" parent="1">
+          <mxGeometry x="380" y="280" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JAcyFPl98IP03p76uuvU-3" value="ESP32-S3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCFF;" vertex="1" parent="1">
+          <mxGeometry x="200" y="420" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JAcyFPl98IP03p76uuvU-4" value="ESP32-S3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCFF;" vertex="1" parent="1">
+          <mxGeometry x="380" y="420" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JAcyFPl98IP03p76uuvU-5" value="Accelerometer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="300" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JAcyFPl98IP03p76uuvU-7" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=elbowEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=link;" edge="1" parent="1" source="JAcyFPl98IP03p76uuvU-2" target="JAcyFPl98IP03p76uuvU-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="380" as="sourcePoint" />
+            <mxPoint x="210" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JAcyFPl98IP03p76uuvU-8" value="I2C" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="JAcyFPl98IP03p76uuvU-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JAcyFPl98IP03p76uuvU-9" value="Audio Amplifier" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="300" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JAcyFPl98IP03p76uuvU-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;shape=link;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="JAcyFPl98IP03p76uuvU-1" target="JAcyFPl98IP03p76uuvU-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="320" as="sourcePoint" />
+            <mxPoint x="630" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JAcyFPl98IP03p76uuvU-11" value="I2S" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="JAcyFPl98IP03p76uuvU-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JAcyFPl98IP03p76uuvU-13" value="Microphone" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="440" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JAcyFPl98IP03p76uuvU-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;shape=link;" edge="1" parent="1" source="JAcyFPl98IP03p76uuvU-3" target="JAcyFPl98IP03p76uuvU-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="410" as="sourcePoint" />
+            <mxPoint x="370" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JAcyFPl98IP03p76uuvU-15" value="I2S" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="JAcyFPl98IP03p76uuvU-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JAcyFPl98IP03p76uuvU-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;shape=link;" edge="1" parent="1" source="JAcyFPl98IP03p76uuvU-4" target="JAcyFPl98IP03p76uuvU-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="440" as="sourcePoint" />
+            <mxPoint x="520" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JAcyFPl98IP03p76uuvU-20" value="UART" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="JAcyFPl98IP03p76uuvU-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JAcyFPl98IP03p76uuvU-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=link;" edge="1" parent="1" source="JAcyFPl98IP03p76uuvU-1" target="JAcyFPl98IP03p76uuvU-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="440" as="sourcePoint" />
+            <mxPoint x="520" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JAcyFPl98IP03p76uuvU-22" value="ESP-NOW" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="JAcyFPl98IP03p76uuvU-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JAcyFPl98IP03p76uuvU-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="JAcyFPl98IP03p76uuvU-3" target="JAcyFPl98IP03p76uuvU-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="440" as="sourcePoint" />
+            <mxPoint x="520" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JAcyFPl98IP03p76uuvU-24" value="GPIO" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="JAcyFPl98IP03p76uuvU-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JAcyFPl98IP03p76uuvU-28" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Device 1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="205" y="260" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JAcyFPl98IP03p76uuvU-29" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Device 2&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="385" y="260" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JAcyFPl98IP03p76uuvU-30" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Device 3&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="205" y="500" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JAcyFPl98IP03p76uuvU-31" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Device 4&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="385" y="500" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JAcyFPl98IP03p76uuvU-32" value="Button" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="480" y="360" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JAcyFPl98IP03p76uuvU-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="JAcyFPl98IP03p76uuvU-32" target="JAcyFPl98IP03p76uuvU-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="440" as="sourcePoint" />
+            <mxPoint x="520" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JAcyFPl98IP03p76uuvU-34" value="GPIO" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="JAcyFPl98IP03p76uuvU-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JAcyFPl98IP03p76uuvU-35" value="RGB LED" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9999;" vertex="1" parent="1">
+          <mxGeometry x="110" y="390" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JAcyFPl98IP03p76uuvU-36" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JAcyFPl98IP03p76uuvU-3" target="JAcyFPl98IP03p76uuvU-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="440" as="sourcePoint" />
+            <mxPoint x="230" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JAcyFPl98IP03p76uuvU-37" value="GPIO" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="JAcyFPl98IP03p76uuvU-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JAcyFPl98IP03p76uuvU-39" value="Speaker" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="20" y="305" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JAcyFPl98IP03p76uuvU-40" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JAcyFPl98IP03p76uuvU-9" target="JAcyFPl98IP03p76uuvU-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="440" as="sourcePoint" />
+            <mxPoint x="520" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

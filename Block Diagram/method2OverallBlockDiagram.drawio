@@ -1,0 +1,175 @@
+<mxfile host="Electron" modified="2024-09-22T10:02:25.945Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.6.1 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="g7nqYdsqxMFTkYYeYgL_" version="24.6.1" type="device">
+  <diagram name="Page-1" id="b85k94uUWk-pQgeeZDtR">
+    <mxGraphModel dx="1017" dy="1181" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="niHN-vSzUL4CqVn7vvug-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="niHN-vSzUL4CqVn7vvug-30" target="niHN-vSzUL4CqVn7vvug-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="niHN-vSzUL4CqVn7vvug-30" value="Accelerometer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="430" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="niHN-vSzUL4CqVn7vvug-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="niHN-vSzUL4CqVn7vvug-31" target="niHN-vSzUL4CqVn7vvug-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="niHN-vSzUL4CqVn7vvug-31" value="Lithium Battery" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="460" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="niHN-vSzUL4CqVn7vvug-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="niHN-vSzUL4CqVn7vvug-32" target="niHN-vSzUL4CqVn7vvug-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="niHN-vSzUL4CqVn7vvug-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="niHN-vSzUL4CqVn7vvug-32" target="niHN-vSzUL4CqVn7vvug-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="niHN-vSzUL4CqVn7vvug-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="niHN-vSzUL4CqVn7vvug-32" target="niHN-vSzUL4CqVn7vvug-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="niHN-vSzUL4CqVn7vvug-32" value="ESP 32" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FF99;" vertex="1" parent="1">
+          <mxGeometry x="400" y="350" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="niHN-vSzUL4CqVn7vvug-33" value="ESP 32" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" vertex="1" parent="1">
+          <mxGeometry x="280" y="500" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="niHN-vSzUL4CqVn7vvug-34" value="ESP 32" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" vertex="1" parent="1">
+          <mxGeometry x="520" y="500" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="niHN-vSzUL4CqVn7vvug-35" value="ESP 32" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" vertex="1" parent="1">
+          <mxGeometry x="400" y="670" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="niHN-vSzUL4CqVn7vvug-37" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="niHN-vSzUL4CqVn7vvug-35" target="niHN-vSzUL4CqVn7vvug-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="470" as="sourcePoint" />
+            <mxPoint x="440" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="niHN-vSzUL4CqVn7vvug-38" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="niHN-vSzUL4CqVn7vvug-34" target="niHN-vSzUL4CqVn7vvug-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="470" as="sourcePoint" />
+            <mxPoint x="460" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="niHN-vSzUL4CqVn7vvug-39" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="niHN-vSzUL4CqVn7vvug-33" target="niHN-vSzUL4CqVn7vvug-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="470" as="sourcePoint" />
+            <mxPoint x="420" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="niHN-vSzUL4CqVn7vvug-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="niHN-vSzUL4CqVn7vvug-40" target="niHN-vSzUL4CqVn7vvug-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="niHN-vSzUL4CqVn7vvug-40" value="MicroSD Card &amp;amp; module" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="310" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="niHN-vSzUL4CqVn7vvug-41" value="Speaker" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="270" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="niHN-vSzUL4CqVn7vvug-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="niHN-vSzUL4CqVn7vvug-42" target="niHN-vSzUL4CqVn7vvug-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="320" />
+              <mxPoint x="520" y="320" />
+              <mxPoint x="520" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="niHN-vSzUL4CqVn7vvug-42" value="Lithium Battery" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="290" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="niHN-vSzUL4CqVn7vvug-43" value="Vibration&lt;div&gt;motor&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="270" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="niHN-vSzUL4CqVn7vvug-44" value="OLED screen" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="210" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="niHN-vSzUL4CqVn7vvug-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="niHN-vSzUL4CqVn7vvug-49" target="niHN-vSzUL4CqVn7vvug-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="niHN-vSzUL4CqVn7vvug-49" value="Accelerometer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="350" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="niHN-vSzUL4CqVn7vvug-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="niHN-vSzUL4CqVn7vvug-59" target="niHN-vSzUL4CqVn7vvug-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="niHN-vSzUL4CqVn7vvug-59" value="Accelerometer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="430" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="niHN-vSzUL4CqVn7vvug-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="niHN-vSzUL4CqVn7vvug-60" target="niHN-vSzUL4CqVn7vvug-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="niHN-vSzUL4CqVn7vvug-60" value="Lithium Battery" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="460" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="niHN-vSzUL4CqVn7vvug-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="niHN-vSzUL4CqVn7vvug-61" target="niHN-vSzUL4CqVn7vvug-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="niHN-vSzUL4CqVn7vvug-61" value="Pressure Sensor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="520" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="niHN-vSzUL4CqVn7vvug-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="niHN-vSzUL4CqVn7vvug-62" target="niHN-vSzUL4CqVn7vvug-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="niHN-vSzUL4CqVn7vvug-62" value="MicroSD Card &amp;amp; module" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="580" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="niHN-vSzUL4CqVn7vvug-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="niHN-vSzUL4CqVn7vvug-63" target="niHN-vSzUL4CqVn7vvug-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="niHN-vSzUL4CqVn7vvug-63" value="Pressure Sensor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="520" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="niHN-vSzUL4CqVn7vvug-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="niHN-vSzUL4CqVn7vvug-64" target="niHN-vSzUL4CqVn7vvug-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="niHN-vSzUL4CqVn7vvug-64" value="MicroSD Card &amp;amp; module" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="580" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="niHN-vSzUL4CqVn7vvug-73" value="ESP-NOW" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="420" y="460" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="niHN-vSzUL4CqVn7vvug-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="niHN-vSzUL4CqVn7vvug-74" target="niHN-vSzUL4CqVn7vvug-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="niHN-vSzUL4CqVn7vvug-74" value="MicroSD Card &amp;amp; module" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="670" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="niHN-vSzUL4CqVn7vvug-75" value="ArmBand (Master Device)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="180" width="450" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="niHN-vSzUL4CqVn7vvug-76" value="Smart Ball 1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="120" y="420" width="260" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="niHN-vSzUL4CqVn7vvug-77" value="Smart Ball 2" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="500" y="425" width="260" height="205" as="geometry" />
+        </mxCell>
+        <mxCell id="niHN-vSzUL4CqVn7vvug-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="niHN-vSzUL4CqVn7vvug-78" target="niHN-vSzUL4CqVn7vvug-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="niHN-vSzUL4CqVn7vvug-78" value="Accelerometer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="670" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="niHN-vSzUL4CqVn7vvug-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="niHN-vSzUL4CqVn7vvug-79" target="niHN-vSzUL4CqVn7vvug-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="niHN-vSzUL4CqVn7vvug-79" value="Ultrasonic Sensor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="740" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="niHN-vSzUL4CqVn7vvug-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="niHN-vSzUL4CqVn7vvug-81" target="niHN-vSzUL4CqVn7vvug-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="niHN-vSzUL4CqVn7vvug-81" value="Lithium Battery" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="740" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="niHN-vSzUL4CqVn7vvug-86" value="Trolley" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="270" y="630" width="340" height="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
